@@ -7,3 +7,5 @@ D:\Program Files\Tat\Calculator\CalculatorWinApp\CalculatorWinApp\obj\Debug\Calc
 D:\Program Files\Tat\Calculator\CalculatorWinApp\CalculatorWinApp\obj\Debug\CalculatorWinApp.csproj.GenerateResource.cache
 D:\Program Files\Tat\Calculator\CalculatorWinApp\CalculatorWinApp\obj\Debug\CalculatorWinApp.exe
 D:\Program Files\Tat\Calculator\CalculatorWinApp\CalculatorWinApp\obj\Debug\CalculatorWinApp.pdb
+D:\Program Files\Tat\Calculator\CalculatorWinApp\CalculatorWinApp\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Program Files\Tat\Calculator\CalculatorWinApp\CalculatorWinApp\obj\Debug\CalculatorWinApp.csproj.CopyComplete
