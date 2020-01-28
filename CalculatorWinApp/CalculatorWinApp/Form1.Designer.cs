@@ -49,11 +49,7 @@
             this.CancleOne_btn = new System.Windows.Forms.Button();
             this.buttonPercent = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonPlus
@@ -66,7 +62,7 @@
             this.buttonPlus.TabIndex = 69;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = false;
-            this.buttonPlus.Click += new System.EventHandler(this.btn_Operator_Click);
+            this.buttonPlus.Click += new System.EventHandler(this.buttonPlus_Click);
             // 
             // buttonEqual
             // 
@@ -91,7 +87,7 @@
             this.button0.TabIndex = 66;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
-            this.button0.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button0.Click += new System.EventHandler(this.button0_Click);
             // 
             // buttonMinus
             // 
@@ -103,7 +99,7 @@
             this.buttonMinus.TabIndex = 65;
             this.buttonMinus.Text = "-";
             this.buttonMinus.UseVisualStyleBackColor = false;
-            this.buttonMinus.Click += new System.EventHandler(this.btn_Operator_Click);
+            this.buttonMinus.Click += new System.EventHandler(this.buttonMinus_Click);
             // 
             // button03
             // 
@@ -115,7 +111,7 @@
             this.button03.TabIndex = 64;
             this.button03.Text = "3";
             this.button03.UseVisualStyleBackColor = false;
-            this.button03.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button03.Click += new System.EventHandler(this.button03_Click);
             // 
             // button02
             // 
@@ -127,7 +123,7 @@
             this.button02.TabIndex = 63;
             this.button02.Text = "2";
             this.button02.UseVisualStyleBackColor = false;
-            this.button02.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button02.Click += new System.EventHandler(this.button02_Click);
             // 
             // button01
             // 
@@ -139,7 +135,7 @@
             this.button01.TabIndex = 62;
             this.button01.Text = "1";
             this.button01.UseVisualStyleBackColor = false;
-            this.button01.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button01.Click += new System.EventHandler(this.button01_Click);
             // 
             // buttonMultiply
             // 
@@ -151,7 +147,7 @@
             this.buttonMultiply.TabIndex = 61;
             this.buttonMultiply.Text = "x";
             this.buttonMultiply.UseVisualStyleBackColor = false;
-            this.buttonMultiply.Click += new System.EventHandler(this.btn_Operator_Click);
+            this.buttonMultiply.Click += new System.EventHandler(this.buttonMultiply_Click);
             // 
             // button06
             // 
@@ -163,7 +159,7 @@
             this.button06.TabIndex = 60;
             this.button06.Text = "6";
             this.button06.UseVisualStyleBackColor = false;
-            this.button06.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button06.Click += new System.EventHandler(this.button06_Click);
             // 
             // button05
             // 
@@ -175,7 +171,7 @@
             this.button05.TabIndex = 59;
             this.button05.Text = "5";
             this.button05.UseVisualStyleBackColor = false;
-            this.button05.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button05.Click += new System.EventHandler(this.button05_Click);
             // 
             // button04
             // 
@@ -187,7 +183,7 @@
             this.button04.TabIndex = 58;
             this.button04.Text = "4";
             this.button04.UseVisualStyleBackColor = false;
-            this.button04.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button04.Click += new System.EventHandler(this.button04_Click);
             // 
             // buttonDivide
             // 
@@ -199,7 +195,7 @@
             this.buttonDivide.TabIndex = 57;
             this.buttonDivide.Text = "÷";
             this.buttonDivide.UseVisualStyleBackColor = false;
-            this.buttonDivide.Click += new System.EventHandler(this.btn_Operator_Click);
+            this.buttonDivide.Click += new System.EventHandler(this.buttonDivide_Click);
             // 
             // button09
             // 
@@ -211,7 +207,7 @@
             this.button09.TabIndex = 56;
             this.button09.Text = "9";
             this.button09.UseVisualStyleBackColor = false;
-            this.button09.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button09.Click += new System.EventHandler(this.button09_Click);
             // 
             // button08
             // 
@@ -223,7 +219,7 @@
             this.button08.TabIndex = 55;
             this.button08.Text = "8";
             this.button08.UseVisualStyleBackColor = false;
-            this.button08.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button08.Click += new System.EventHandler(this.button08_Click);
             // 
             // button07
             // 
@@ -235,7 +231,7 @@
             this.button07.TabIndex = 54;
             this.button07.Text = "7";
             this.button07.UseVisualStyleBackColor = false;
-            this.button07.Click += new System.EventHandler(this.btn_Num_Click);
+            this.button07.Click += new System.EventHandler(this.button07_Click);
             // 
             // textBox1
             // 
@@ -258,7 +254,7 @@
             this.buttonDot.TabIndex = 67;
             this.buttonDot.Text = ".";
             this.buttonDot.UseVisualStyleBackColor = false;
-            this.buttonDot.Click += new System.EventHandler(this.btn_Num_Click);
+            this.buttonDot.Click += new System.EventHandler(this.buttonDot_Click);
             // 
             // Cancle_btn
             // 
@@ -294,7 +290,7 @@
             this.buttonPercent.TabIndex = 72;
             this.buttonPercent.Text = "%";
             this.buttonPercent.UseVisualStyleBackColor = false;
-            this.buttonPercent.Click += new System.EventHandler(this.btn_Percent_Click);
+            this.buttonPercent.Click += new System.EventHandler(this.buttonPercent_Click);
             // 
             // textBox2
             // 
@@ -309,49 +305,6 @@
             this.textBox2.TabIndex = 74;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Window;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(51, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 21);
-            this.label2.TabIndex = 75;
-            this.label2.Text = "   ";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 21);
-            this.label1.TabIndex = 76;
-            this.label1.Text = "   ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.AutoSize = true;
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Window;
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52F));
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(140, 66);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(100, 21);
-            this.tableLayoutPanel1.TabIndex = 77;
-            // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -359,7 +312,7 @@
             this.textBox3.Location = new System.Drawing.Point(18, 66);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(122, 19);
+            this.textBox3.Size = new System.Drawing.Size(297, 19);
             this.textBox3.TabIndex = 78;
             // 
             // Form1
@@ -369,7 +322,6 @@
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(563, 337);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.buttonPercent);
             this.Controls.Add(this.CancleOne_btn);
@@ -394,8 +346,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,9 +374,6 @@
         private System.Windows.Forms.Button CancleOne_btn;
         private System.Windows.Forms.Button buttonPercent;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox textBox3;
     }
 }
