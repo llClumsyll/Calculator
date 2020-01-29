@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonPlus = new System.Windows.Forms.Button();
             this.buttonEqual = new System.Windows.Forms.Button();
             this.button0 = new System.Windows.Forms.Button();
@@ -50,6 +51,8 @@
             this.buttonPercent = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.buttonDelete = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonDelete)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonPlus
@@ -315,12 +318,24 @@
             this.textBox3.Size = new System.Drawing.Size(297, 19);
             this.textBox3.TabIndex = 78;
             // 
+            // buttonDelete
+            // 
+            this.buttonDelete.Image = global::CalculatorWinApp.Properties.Resources.delete;
+            this.buttonDelete.Location = new System.Drawing.Point(519, 296);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(30, 28);
+            this.buttonDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.buttonDelete.TabIndex = 79;
+            this.buttonDelete.TabStop = false;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(563, 337);
+            this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.buttonPercent);
@@ -343,9 +358,11 @@
             this.Controls.Add(this.button08);
             this.Controls.Add(this.button07);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Calculator";
+            ((System.ComponentModel.ISupportInitialize)(this.buttonDelete)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,6 +392,7 @@
         private System.Windows.Forms.Button buttonPercent;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.PictureBox buttonDelete;
     }
 }
 
